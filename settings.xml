@@ -1,0 +1,23 @@
+<settings>
+
+  <servers>
+    <server>
+      <id>{{ REPOSITORY_ID }}</id>
+      <username>{{ REPOSITORY_USERNAME }}</username>
+      <password>{{ REPOSITORY_PASSWORD }}</password>
+    </server>
+  </servers>
+
+  <profiles>
+    <profile>
+      <id>{{ REPOSITORY_ID }}</id>
+      <activation>
+        <activeByDefault>true</activeByDefault>
+      </activation>
+      <properties>
+        <gpg.passphrase>{{ GPG_KEY_PASS }}</gpg.passphrase>
+      </properties>
+    </profile>
+  </profiles>
+
+</settings>
