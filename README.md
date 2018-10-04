@@ -5,6 +5,7 @@ This image contains the following:
 * Maven: 3.5.4
 * make
 * GPG utils
+* AWS cli
 
 The images has the following environment variables (will be substituted in `/root/.m2/settings.xml`):
 * `REPOSITORY_ID`: mvn repository ID to deploy artifacts (default `ossrh`)
